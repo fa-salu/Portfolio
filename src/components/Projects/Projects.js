@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import littlelove from "../../Assets/Projects/LittleLove.png"
-import doque from "../../Assets/Projects/doque.png"
+import littlelove from "../../Assets/Projects/LittleLove.png";
+import doque from "../../Assets/Projects/doque.png";
 
 function Projects() {
   return (
@@ -26,19 +26,18 @@ function Projects() {
               ghLink="https://github.com/fa-salu/Baby-Shop-E-Commerse-client"
               demoLink="https://baby-shop-e-commerse-client.vercel.app"
             />
-          </Col>  
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={doque}
               isBlog={false}
               title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="DOQUE is my task management application built with Next.js, TypeScript, and Tailwind CSS. It features real-time collaboration, an intuitive user interface, and seamless task organization, making team productivity easier and more efficient, This project features a fully responsive design, ensuring optimal viewing on all devices."
               ghLink="https://github.com/fa-salu/project-doque"
               demoLink="https://doque.vercel.app"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>

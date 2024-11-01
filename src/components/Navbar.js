@@ -14,7 +14,6 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
-// import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -40,7 +39,6 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
         <h1 className="logo">FR.</h1>
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -83,15 +81,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item> */}
 
             {/* <Nav.Item>
               <Nav.Link
