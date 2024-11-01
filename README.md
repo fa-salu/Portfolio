@@ -2,9 +2,6 @@
   Portfolio <br/>
   <a href="https://personal-portfolio-three-wheat-71.vercel.app" target="_blank">Fasalu</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" />
-</div>
 
 <br/>
 
