@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import littlelove from "../../Assets/Projects/LittleLove.png";
 import doque from "../../Assets/Projects/doque.png";
+import universal from "../../Assets/Projects/universal.png";
 
 function Projects() {
   return (
@@ -32,10 +33,21 @@ function Projects() {
             <ProjectCard
               imgPath={doque}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="Doque - Task management and project planning tool"
               description="DOQUE is my task management application built with Next.js, TypeScript, and Tailwind CSS. It features real-time collaboration, an intuitive user interface, and seamless task organization, making team productivity easier and more efficient, This project features a fully responsive design, ensuring optimal viewing on all devices."
               ghLink="https://github.com/fa-salu/project-doque"
               demoLink="https://doque.vercel.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={universal}
+              isBlog={false}
+              title="Universal - Spoken English Live Project"
+              description="Universal is a live project designed to provide an engaging platform for spoken English learners. Built with static HTML, JavaScript, and styled using Tailwind CSS, this project delivers a clean and responsive design. The platform showcases an intuitive interface for learners and is hosted at universalmanjeri.com for seamless accessibility."
+              ghLink="https://github.com/fa-salu" // Replace with actual repo link if available
+              demoLink="https://universalmanjeri.com"
             />
           </Col>
         </Row>
