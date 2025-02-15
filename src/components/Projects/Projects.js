@@ -7,6 +7,7 @@ import doque from "../../Assets/Projects/doque.png";
 import universal from "../../Assets/Projects/universal.png";
 import Medium from "../../Assets/Projects/Medium-Clone.png";
 import MatchCardGame from "../../Assets/Projects/match-card-game.png";
+import TicTacToeGame from "../../Assets/Projects/tic-tac-toe.png";
 
 function Projects() {
   return (
@@ -72,6 +73,17 @@ function Projects() {
               description="Memory Card Match is an engaging memory game built with Next.js, Tailwind CSS, and TypeScript. The game challenges players to match pairs of cards, with a total of 8 pairs to solve. Players must check and match two cards at a time, and if they succeed, the pair is solved. Once all 8 pairs are matched, the player wins the game. Designed for a smooth, responsive experience, this game provides an interactive and fun challenge for users."
               ghLink="https://github.com/fa-salu/Matching-Card-Game"
               demoLink="https://matching-card-game-nine.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TicTacToeGame}
+              isBlog={false}
+              title="Tic-Tac-Toe Game"
+              description="**Tic Tac Toe Game** is a classic two-player game built with **Next.js, Tailwind CSS, and TypeScript**. Players take turns marking **X** or **O** on a 3x3 grid, aiming to align three of their symbols in a row, column, or diagonal to win. The game features a **fully responsive design**, ensuring smooth gameplay across all devices. With an intuitive UI and real-time interactions, this project delivers a fun and engaging experience for players of all ages."
+              ghLink="https://github.com/fa-salu/Tic-Tac-Toe-_NextJs"
+              demoLink="https://tic-tac-toe-one-phi-41.vercel.app/"
             />
           </Col>
         </Row>
