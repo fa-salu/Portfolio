@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Fasalu Rahman</span>.
             <br />
-            I am currently an intern as a MERN stack developer.
+            I am looking for a MERN Stack Developer job.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
