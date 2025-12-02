@@ -8,7 +8,13 @@ function AboutCard() {
         <p className="text-justify mb-4 text-gray-300">
           Hi Everyone, I am <span className="text-primary font-bold">Fasalu Rahman</span>.
           <br />
-          I am looking for a MERN Stack Developer job.
+          I am a <span className="text-primary font-bold">Full Stack Developer</span> who loves to transform ideas into reality using code.
+          <br />
+          <br />
+          I started my journey as a MERN Stack Developer, but my curiosity led me to explore the entire web ecosystem. Now, I build scalable, efficient, and user-centric full-stack applications.
+          <br />
+          <br />
+          I have a strong interest in <span className="text-primary font-bold">Front-end Design</span> and believe that a great user interface is key to a successful product.
           <br />
           <br />
           Apart from coding, some other activities that I love to do!

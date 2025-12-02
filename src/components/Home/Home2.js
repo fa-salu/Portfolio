@@ -18,27 +18,18 @@ function Home2() {
               LET ME <span className="text-primary"> INTRODUCE </span> MYSELF
             </h1>
             <p className="mb-4">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a <b className="text-primary">Full Stack Developer</b> with a passion for building beautiful and functional web applications.
             </p>
             <p className="mb-4">
-              I am fluent in classics like
-              <i className="text-primary font-bold"> MongoDB, Express.js, React.js and Nodejs </i>
+              I started my journey specializing in the <b className="text-primary">MERN Stack</b>, but I have since expanded my skills to work across the <b className="text-primary">entire web stack</b>.
             </p>
             <p className="mb-4">
-              My field of Interest's are building new &nbsp;
-              <i className="text-primary font-bold">Web Technologies and Products </i> and
-              also in areas related to <b className="text-primary">Blockchain.</b>
+              I am especially passionate about <b className="text-primary">Front-end Design</b> and creating intuitive <b className="text-primary">User Experiences</b>.
             </p>
             <p className="mb-4">
-              Whenever possible, I also apply my passion for developing products
-              with <b className="text-primary">Node.js</b> and
+              I love to build scalable and efficient applications using modern technologies like
               <i>
-                <b className="text-primary"> Modern Javascript Library and Frameworks</b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="text-primary"> React.js</b>
+                <b className="text-primary"> React.js, Next.js, and Node.js</b>
               </i>
             </p>
           </div>

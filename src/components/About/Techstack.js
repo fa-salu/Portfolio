@@ -1,20 +1,22 @@
 import React from "react";
 import { DiJavascript1, DiReact, DiNodejs, DiMongodb, DiHtml5, DiCss3 } from "react-icons/di";
-import { SiRedux, SiExpress, SiSass, SiBootstrap, SiTailwindcss } from "react-icons/si";
+import { SiRedux, SiExpress, SiTailwindcss, SiTypescript, SiNextdotjs, SiReactquery, SiPostgresql } from "react-icons/si";
 
 function Techstack() {
   const icons = [
     { Icon: DiJavascript1, name: "JavaScript" },
-    { Icon: DiMongodb, name: "MongoDB" },
-    { Icon: SiExpress, name: "Express" },
+    { Icon: SiTypescript, name: "TypeScript" },
     { Icon: DiReact, name: "React" },
+    { Icon: SiNextdotjs, name: "Next.js" },
+    { Icon: SiRedux, name: "Redux Toolkit" },
+    { Icon: SiReactquery, name: "TanStack Query" },
     { Icon: DiNodejs, name: "Node.js" },
+    { Icon: SiExpress, name: "Express" },
+    { Icon: DiMongodb, name: "MongoDB" },
+    { Icon: SiPostgresql, name: "PostgreSQL" },
     { Icon: DiHtml5, name: "HTML5" },
     { Icon: DiCss3, name: "CSS3" },
-    { Icon: SiSass, name: "Sass" },
-    { Icon: SiBootstrap, name: "Bootstrap" },
     { Icon: SiTailwindcss, name: "Tailwind" },
-    { Icon: SiRedux, name: "Redux" },
   ];
 
   return (
