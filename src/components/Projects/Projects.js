@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import littlelove from "../../Assets/Projects/LittleLove.png";
@@ -11,17 +10,18 @@ import TicTacToeGame from "../../Assets/Projects/tic-tac-toe.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <div className="w-full min-h-screen pt-24 relative overflow-hidden">
       <Particle />
-      <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h1 className="text-4xl font-bold text-white text-center mb-4">
+          My Recent <strong className="text-primary">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p className="text-white text-center mb-12">
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-12">
+          <div className="h-full">
             <ProjectCard
               imgPath={littlelove}
               isBlog={false}
@@ -30,9 +30,9 @@ function Projects() {
               ghLink="https://github.com/fa-salu/Baby-Shop-E-Commerse-client"
               demoLink="https://baby-shop-e-commerse-client.vercel.app"
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="h-full">
             <ProjectCard
               imgPath={doque}
               isBlog={false}
@@ -41,9 +41,9 @@ function Projects() {
               ghLink="https://github.com/fa-salu/project-doque"
               demoLink="https://doque.vercel.app"
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="h-full">
             <ProjectCard
               imgPath={universal}
               isBlog={false}
@@ -52,9 +52,9 @@ function Projects() {
               ghLink="https://github.com/fa-salu"
               demoLink="https://universalmanjeri.com"
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="h-full">
             <ProjectCard
               imgPath={Medium}
               isBlog={false}
@@ -63,9 +63,9 @@ function Projects() {
               ghLink="https://github.com/fa-salu/Medium-Clone"
               demoLink="https://medium-clone-five-phi.vercel.app"
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="h-full">
             <ProjectCard
               imgPath={MatchCardGame}
               isBlog={false}
@@ -74,9 +74,9 @@ function Projects() {
               ghLink="https://github.com/fa-salu/Matching-Card-Game"
               demoLink="https://matching-card-game-nine.vercel.app/"
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="h-full">
             <ProjectCard
               imgPath={TicTacToeGame}
               isBlog={false}
@@ -85,10 +85,10 @@ function Projects() {
               ghLink="https://github.com/fa-salu/Tic-Tac-Toe-_NextJs"
               demoLink="https://tic-tac-toe-one-phi-41.vercel.app/"
             />
-          </Col>
-        </Row>
-      </Container>
-    </Container>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
